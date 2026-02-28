@@ -6,7 +6,7 @@ const produto = {
 
 nome: "Teclado Gamer",
 
-preco: 150.00,
+preco: 150.00,   //teclado estava em string
 
 estoque: 10,
 
@@ -16,11 +16,11 @@ estoque: 10,
 
 function aplicarDesconto(valor) {
 
-return valor - (0.20*valor);
+return valor - (0.20*valor); //valor do desconto estava errado ajustei para 0.20*
 
 }
 
-const precoFinal = aplicarDesconto(produto.preco);
+const precoFinal = aplicarDesconto(produto.preco); // criei a variável preço final, chamei a função e coloquei o produto.preco no lugar do parametro
 
 produto.estoque = produto.estoque - 1;
 
