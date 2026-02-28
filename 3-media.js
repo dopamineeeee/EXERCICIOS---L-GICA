@@ -12,13 +12,13 @@ function calcularMedia() {
 
 let media = (nota1 + nota2) / 2;
 
-return media;
+return media;  // coloquei o return media
 
 }
 
-let media=calcularMedia();
+let media=calcularMedia();  // chamei a função calcularmedia 
 
-let status;
+let status;     // criei a variável status
 
 if (media >= 7) {
 
@@ -31,4 +31,4 @@ status = "Reprovado";
 }
 
 console.log("O Aluno " + nomeAluno + " tem média: " + media);
-console.log("O aluno " + nomeAluno + " está: " + status);
+console.log("O aluno " + nomeAluno + " está: " + status); // adicionei se o aluno está aprovado ou reprovado
