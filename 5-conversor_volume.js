@@ -1,10 +1,10 @@
 // --- Conversor de Medidas de Fábrica ---
 
-const mlPorLitro = 1000;
+const mlPorLitro = 1000;   // estava em string
 
 function converterMlParaLitro(quantidadeMl) {
 
-const resultado = quantidadeMl / mlPorLitro;
+const resultado = quantidadeMl / mlPorLitro;   // errado o calculo coloquei /
 
 return resultado;
 
@@ -12,7 +12,7 @@ return resultado;
 
 function converterLitroParaMl(quantidadeLitros) {
 
-const resultado = quantidadeLitros * mlPorLitro;
+const resultado = quantidadeLitros * mlPorLitro;   // errado o calculo coloquei *
 
 return resultado;
 
@@ -39,7 +39,7 @@ console.log("Lote 2 (2L em Mililitros): " + calculoLote2 + "ml");
 
 
 
-if (producaoDia.lote1 === 0) {
+if (producaoDia.lote1 === 0) { // coloquei ===
 
 const estoqueBaixo = true;
 
