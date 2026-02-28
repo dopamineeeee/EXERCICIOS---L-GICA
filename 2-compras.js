@@ -16,7 +16,7 @@ estoque: 10,
 
 function aplicarDesconto(valor) {
 
-return valor - (0.20*valor); //valor do desconto estava errado ajustei para 0.20*
+return valor - (0.20*valor); //valor do desconto estava errado ajustei para 0.20* e coloquei o return para retornar a variável valor
 
 }
 
