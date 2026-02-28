@@ -8,6 +8,6 @@ const senhaCadastrada = "1234";
 let tentativaUsuario = "admin";
 let tentativaSenha = "1234";
 
-if ((tentativaUsuario === usuarioCadastrado && tentativaSenha === senhaCadastrada)) {console.log("Login realizado com sucesso!");}
+if ((tentativaUsuario === usuarioCadastrado && tentativaSenha === senhaCadastrada)) {console.log("Login realizado com sucesso!");}  // não lembro o que fiz, única coisa que lembro é que coloquei os === nos dois 
 else{ console.log("Senha incorreta!");
 console.log("Tente novamente mais tarde.");}
